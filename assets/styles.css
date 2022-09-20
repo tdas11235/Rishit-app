@@ -1,0 +1,115 @@
+html {
+    height: 100vh;
+}
+
+body {
+    background: skyblue;
+    min-height: 100vh;
+    font-family: verdana;
+    color: #fff;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+}
+
+
+h1 {
+    font-size: 48px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+p {
+    font-size: 16px;
+    text-align: center;
+}
+
+#list {
+    display: "flex";
+    flex-direction: "column";
+    align-items: "center";
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+#nav li {
+    display: inline;
+    padding: 8px;
+}
+
+a:hover {
+    color: red;
+}
+
+button {
+    width: 100%;
+    padding: 8px;
+    margin: 10px;
+    background-color: rgb(92, 92, 231);
+    color: white;
+    border-radius: 8px;
+    border-color: blue;
+    border-width: 0px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 0.2rem;
+}
+
+button:hover {
+    background-color: rgb(108, 108, 233);
+}
+
+button:active {
+    background-color: rgb(157, 157, 233);
+}
+
+div {
+    display: flex;
+    flex-direction: row;
+}
+
+figure {
+    margin: auto;
+    width: auto;
+    height: 70vh;
+}
+figcaption{
+    text-align: center;
+    margin: 8px;
+}
+
+img{
+    width: auto;
+    height: 70vh;
+}
+
+@media only screen and (max-width: 700px) {
+    div {
+        display: flex;
+        flex-direction: column;
+    }
+}
